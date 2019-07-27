@@ -1,0 +1,123 @@
+/* GLOBAL STYLES */
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Open+Sans&display=swap');
+html{
+    font-size: 16px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Lato', sans-serif;
+}
+
+p, li, a{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+/* HEADER AND NAVIGATION */
+.navbar {
+    /* position: fixed; */
+    padding: 20px;
+    z-index: 3;
+    width: 100%;
+}
+
+bg-color{
+    background: rgba(40, 40, 40, .7);
+}
+header.site-header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background: rgba(40, 40, 40, .7);
+}
+/* HERO SECTION */
+.hero{
+    background-image: url(imgs/bg.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+
+}
+
+.hero-rhombus{
+    height: 300px;
+    width: 300px;
+    background-color: goldenrod;
+    position: absolute;
+    z-index: -1;
+    transform: rotate(45deg) translateY(-50%);
+    top:50%;
+    left:-50px;
+}
+
+.hero-text{
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1 {
+    color: white;
+}
+img.full-width{
+    width: 100%;
+}
+
+img.half-width{
+    width: 70%;
+}
+img#logo{
+    width: 150px;
+    height: auto;
+    margin: 20px;
+}
+
+.clippy{
+
+    clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%);
+
+}
+
+.footer {
+    padding: 20px;
+    width: 100%;
+    background: rgba(40, 40, 40, .7);
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    background-color:rgba(0, 123, 255, 0.8);
+    height: 100%;
+    width: 93%;
+}
+
+.ctr {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-top: 23%;
+}
