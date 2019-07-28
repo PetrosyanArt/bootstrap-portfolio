@@ -13,64 +13,69 @@
 
   <title>Bootsrap Portfolio</title>
 </head>
+
 <body>
   <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
-        <a class="navbar-brand" href="#">FilmTree Productions</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">FilmTree Productions</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+<main>
+    <div class="container">
+      <div class="row form-top form-bottom">
+        <div class="col-md-12">
+          <form action="/action_page.php">
+            <div class="form-group">
+              <label for="usr">Name:</label>
+              <input type="text" class="form-control" id="usr" name="username">
+            </div>
+            <div class="form-group">
+              <label for="usr">Last Name:</label>
+              <input type="text" class="form-control" id="usr" name="username">
+            </div>
+            <div class="form-group">
+              <label for="comment">Comment:</label>
+              <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
           </form>
         </div>
-      </nav>
-
-  <div class="container">
-    <div class="row">
-        <div class="col-md-12">
-                <form action="/action_page.php">
-                    <div class="form-group">
-                      <label for="usr">Name:</label>
-                      <input type="text" class="form-control" id="usr" name="username">
-                    </div>
-                     <div class="form-group">
-                      <label for="usr">Last Name:</label>
-                      <input type="text" class="form-control" id="usr" name="username">
-                    </div>
-                    <div class="form-group">
-                            <label for="comment">Comment:</label>
-                            <textarea class="form-control" rows="5" id="comment"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>
-                </div>
-        </div>
-      </div> 
-    </div><!--container ends here-->
-      <footer>
-      <div class="row footer">
-        <div class="col-md-12">
-             <p>&copy; Copyrigt 2019</p>
-        <!-- footer ends here -->
-        </div>
       </div>
-    </footer> 
-    
+    </div>
+  </div>
+  <!--container ends here-->
+
+</main>
+
+  <footer>
+    <div class="row footer-home">
+      <div class="col-md-12">
+        <p>&copy; Copyrigt 2019</p>
+      </div>
+    </div>
+  </footer>
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -82,11 +87,11 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script type="text/javascript">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script type="text/javascript">
     ScrollReveal({ reset: true }).reveal('.headline');
-    
-    </script>
+
+  </script>
 
 </body>
 
