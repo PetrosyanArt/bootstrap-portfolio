@@ -130,6 +130,7 @@ img#logo{
 main {
     margin: auto;
     height: 100%;
+    min-height: calc(100vh - 90px);
 }
 /* footer */
 .footer-home{
@@ -140,4 +141,5 @@ main {
     width: 100%;
     margin-top: 40px;
     margin-bottom: 0;
+    position: absolute;
 }
